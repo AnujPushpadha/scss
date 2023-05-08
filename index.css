@@ -1,0 +1,150 @@
+.mainheader {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  z-index: 20;
+}
+.mainheader .nav1 {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  height: 80px;
+  flex-wrap: wrap;
+}
+.mainheader .nav1 .logo-box {
+  display: flex;
+}
+.mainheader .nav1 .logo-box .logo {
+  width: 120px;
+  height: 55px;
+}
+.mainheader .nav1 .logo-box .logo img {
+  width: 100%;
+  height: 100%;
+}
+.mainheader .nav1 .logo-box .location {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.mainheader .nav1 .logo-box .location .location-header {
+  background-image: url(https://media.bakingo.com/images/common/sprite_bk.svg);
+  width: 32px;
+  height: 32px;
+  background-position-y: -47px;
+  background-position-x: -173px;
+}
+.mainheader .nav1 .logo-box .city {
+  margin-left: 5px;
+}
+.mainheader .nav1 .logo-box .city .city-name {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-family: Lato, sans-serif;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #251d34;
+}
+.mainheader .nav1 .logo-box .city .city-name .dropdown-icon {
+  background-image: url(https://media.bakingo.com/images/common/sprite_bk.svg);
+  width: 11px;
+  height: 15px;
+  background-position-y: -47px;
+  background-position-x: -461px;
+  margin-left: 5px;
+}
+.mainheader .nav1 .search {
+  position: relative;
+  display: flex;
+  width: 31vw;
+  padding: 10px;
+  align-items: center;
+  border-radius: 4px;
+  background-color: hsla(0, 0%, 94.9%, 0.57);
+}
+.mainheader .nav1 .search .serch-bar {
+  flex-direction: column;
+  width: 100% !important;
+  display: flex !important;
+}
+.mainheader .nav1 .search .serch-bar .search-input {
+  color: #292640;
+  font-weight: 500;
+  font-size: 13px;
+  padding-left: 5px;
+  margin-left: 12px;
+  border: 0;
+  background-color: #f7f7f7;
+}
+.mainheader .nav1 .search .search-icon {
+  background-image: url(https://media.bakingo.com/ssr-static/search-icon.svg);
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  cursor: pointer;
+}
+.mainheader .nav1 .all-profile-cart {
+  display: flex;
+  align-items: center;
+}
+.mainheader .nav1 .all-profile-cart .cart-icon {
+  margin-right: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: column;
+  padding: 5px;
+  justify-items: center;
+}
+.mainheader .nav1 .all-profile-cart .cart-icon div {
+  background-image: url(https://media.bakingo.com/images/common/sprite_bk.svg);
+  width: 32px;
+  height: 32px;
+}
+.mainheader .nav1 .all-profile-cart .cart {
+  font-family: Lato, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #333;
+  white-space: nowrap;
+}
+.mainheader .nav1 .all-profile-cart .wallet-header-icon {
+  background-position-y: -42px;
+  background-position-x: -250px;
+}
+.mainheader .nav1 .all-profile-cart .trackorder-header-icon {
+  background-position-y: -42px;
+  background-position-x: -290px;
+}
+.mainheader .nav1 .all-profile-cart .userlogin-header-icon {
+  background-position-y: -42px;
+  background-position-x: -375px;
+}
+.mainheader .nav1 .all-profile-cart .header-cart-icon-desk {
+  background-position-y: -38px;
+  background-position-x: -334px;
+}
+.mainheader .nav1 .all-profile-cart .burger {
+  background-position-y: -42px;
+  background-position-x: -420px;
+}
+
+/*# sourceMappingURL=index.css.map */
